@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: func_adl_servicex_xaodr25
-  version: "2.3.0.25.2.41"
+  version: "2.4.0.25.2.41"
   python_min: "3.8"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/func_adl_servicex_xaodr25-${{ version }}.tar.gz
-  sha256: e03a84a66f0f168917fc082deb8b36dd097a2e962f1f6dd1baf23288c099cc54
+  sha256: 2aee2dee011c4a4b4fe0c26b8f356746a45d1d0347fad5b500b1f3a4e2ec5dd9
 
 build:
   noarch: python
